@@ -31,8 +31,9 @@ def matDot0(mat1, mat2): # 调用函数对矩阵乘法进行优化
 mat1 = numpy.array([[1, 2, 3],
                    [4, 5, 6],
                    [7, 8, 9]])
-mat2 = numpy.array([[1, 1],
-                   [2, 2],
+mat2 = numpy.array([[3, 1],
+                   [2, 7],
                    [1, 1]])
 # print(sum(mat2[:,0]*mat1[0,:]))
+# print(dot(mat1,mat2))
 print(matDot0(mat1, mat2))
